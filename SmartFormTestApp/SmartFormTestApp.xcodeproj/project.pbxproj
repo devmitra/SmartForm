@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBE88E41E07BEA600B5E98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE88E31E07BEA600B5E98F /* AppDelegate.swift */; };
+		2EBE88E61E07BEA600B5E98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE88E51E07BEA600B5E98F /* ViewController.swift */; };
+		2EBE88E91E07BEA600B5E98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBE88E71E07BEA600B5E98F /* Main.storyboard */; };
+		2EBE88EB1E07BEA600B5E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBE88EA1E07BEA600B5E98F /* Assets.xcassets */; };
+		2EBE88EE1E07BEA600B5E98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBE88EC1E07BEA600B5E98F /* LaunchScreen.storyboard */; };
+		2EBE88F91E07BEA700B5E98F /* SmartFormTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE88F81E07BEA700B5E98F /* SmartFormTestAppTests.swift */; };
+		2EBE89041E07BEA700B5E98F /* SmartFormTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE89031E07BEA700B5E98F /* SmartFormTestAppUITests.swift */; };
+		2EBE89401E07BF1800B5E98F /* SmartForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBE893B1E07BEFC00B5E98F /* SmartForm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EBE88F51E07BEA700B5E98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBE88D81E07BEA600B5E98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EBE88DF1E07BEA600B5E98F;
+			remoteInfo = SmartFormTestApp;
+		};
+		2EBE89001E07BEA700B5E98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBE88D81E07BEA600B5E98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EBE88DF1E07BEA600B5E98F;
+			remoteInfo = SmartFormTestApp;
+		};
+		2EBE893A1E07BEFC00B5E98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EBE891B1E07BECD00B5E98F;
+			remoteInfo = SmartForm;
+		};
+		2EBE893C1E07BEFC00B5E98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EBE89241E07BECE00B5E98F;
+			remoteInfo = SmartFormTests;
+		};
+		2EBE893E1E07BF0F00B5E98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EBE891A1E07BECD00B5E98F;
+			remoteInfo = SmartForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EBE88E01E07BEA600B5E98F /* SmartFormTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFormTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBE88E31E07BEA600B5E98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EBE88E51E07BEA600B5E98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EBE88E81E07BEA600B5E98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EBE88EA1E07BEA600B5E98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EBE88ED1E07BEA600B5E98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EBE88EF1E07BEA600B5E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBE88F41E07BEA700B5E98F /* SmartFormTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFormTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBE88F81E07BEA700B5E98F /* SmartFormTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFormTestAppTests.swift; sourceTree = "<group>"; };
+		2EBE88FA1E07BEA700B5E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBE88FF1E07BEA700B5E98F /* SmartFormTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFormTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBE89031E07BEA700B5E98F /* SmartFormTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFormTestAppUITests.swift; sourceTree = "<group>"; };
+		2EBE89051E07BEA700B5E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SmartForm.xcodeproj; path = ../SmartForm/SmartForm.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EBE88DD1E07BEA600B5E98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBE89401E07BF1800B5E98F /* SmartForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88F11E07BEA700B5E98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88FC1E07BEA700B5E98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EBE88D71E07BEA600B5E98F = {
+			isa = PBXGroup;
+			children = (
+				2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */,
+				2EBE88E21E07BEA600B5E98F /* SmartFormTestApp */,
+				2EBE88F71E07BEA700B5E98F /* SmartFormTestAppTests */,
+				2EBE89021E07BEA700B5E98F /* SmartFormTestAppUITests */,
+				2EBE88E11E07BEA600B5E98F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EBE88E11E07BEA600B5E98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE88E01E07BEA600B5E98F /* SmartFormTestApp.app */,
+				2EBE88F41E07BEA700B5E98F /* SmartFormTestAppTests.xctest */,
+				2EBE88FF1E07BEA700B5E98F /* SmartFormTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EBE88E21E07BEA600B5E98F /* SmartFormTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE88E31E07BEA600B5E98F /* AppDelegate.swift */,
+				2EBE88E51E07BEA600B5E98F /* ViewController.swift */,
+				2EBE88E71E07BEA600B5E98F /* Main.storyboard */,
+				2EBE88EA1E07BEA600B5E98F /* Assets.xcassets */,
+				2EBE88EC1E07BEA600B5E98F /* LaunchScreen.storyboard */,
+				2EBE88EF1E07BEA600B5E98F /* Info.plist */,
+			);
+			path = SmartFormTestApp;
+			sourceTree = "<group>";
+		};
+		2EBE88F71E07BEA700B5E98F /* SmartFormTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE88F81E07BEA700B5E98F /* SmartFormTestAppTests.swift */,
+				2EBE88FA1E07BEA700B5E98F /* Info.plist */,
+			);
+			path = SmartFormTestAppTests;
+			sourceTree = "<group>";
+		};
+		2EBE89021E07BEA700B5E98F /* SmartFormTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE89031E07BEA700B5E98F /* SmartFormTestAppUITests.swift */,
+				2EBE89051E07BEA700B5E98F /* Info.plist */,
+			);
+			path = SmartFormTestAppUITests;
+			sourceTree = "<group>";
+		};
+		2EBE89361E07BEFC00B5E98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE893B1E07BEFC00B5E98F /* SmartForm.framework */,
+				2EBE893D1E07BEFC00B5E98F /* SmartFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EBE88DF1E07BEA600B5E98F /* SmartFormTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBE89081E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestApp" */;
+			buildPhases = (
+				2EBE88DC1E07BEA600B5E98F /* Sources */,
+				2EBE88DD1E07BEA600B5E98F /* Frameworks */,
+				2EBE88DE1E07BEA600B5E98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBE893F1E07BF0F00B5E98F /* PBXTargetDependency */,
+			);
+			name = SmartFormTestApp;
+			productName = SmartFormTestApp;
+			productReference = 2EBE88E01E07BEA600B5E98F /* SmartFormTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EBE88F31E07BEA700B5E98F /* SmartFormTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBE890B1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppTests" */;
+			buildPhases = (
+				2EBE88F01E07BEA700B5E98F /* Sources */,
+				2EBE88F11E07BEA700B5E98F /* Frameworks */,
+				2EBE88F21E07BEA700B5E98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBE88F61E07BEA700B5E98F /* PBXTargetDependency */,
+			);
+			name = SmartFormTestAppTests;
+			productName = SmartFormTestAppTests;
+			productReference = 2EBE88F41E07BEA700B5E98F /* SmartFormTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EBE88FE1E07BEA700B5E98F /* SmartFormTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBE890E1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppUITests" */;
+			buildPhases = (
+				2EBE88FB1E07BEA700B5E98F /* Sources */,
+				2EBE88FC1E07BEA700B5E98F /* Frameworks */,
+				2EBE88FD1E07BEA700B5E98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBE89011E07BEA700B5E98F /* PBXTargetDependency */,
+			);
+			name = SmartFormTestAppUITests;
+			productName = SmartFormTestAppUITests;
+			productReference = 2EBE88FF1E07BEA700B5E98F /* SmartFormTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EBE88D81E07BEA600B5E98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Pushan Mitra";
+				TargetAttributes = {
+					2EBE88DF1E07BEA600B5E98F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2EBE88F31E07BEA700B5E98F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EBE88DF1E07BEA600B5E98F;
+					};
+					2EBE88FE1E07BEA700B5E98F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EBE88DF1E07BEA600B5E98F;
+					};
+				};
+			};
+			buildConfigurationList = 2EBE88DB1E07BEA600B5E98F /* Build configuration list for PBXProject "SmartFormTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EBE88D71E07BEA600B5E98F;
+			productRefGroup = 2EBE88E11E07BEA600B5E98F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2EBE89361E07BEFC00B5E98F /* Products */;
+					ProjectRef = 2EBE89351E07BEFC00B5E98F /* SmartForm.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2EBE88DF1E07BEA600B5E98F /* SmartFormTestApp */,
+				2EBE88F31E07BEA700B5E98F /* SmartFormTestAppTests */,
+				2EBE88FE1E07BEA700B5E98F /* SmartFormTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2EBE893B1E07BEFC00B5E98F /* SmartForm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SmartForm.framework;
+			remoteRef = 2EBE893A1E07BEFC00B5E98F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EBE893D1E07BEFC00B5E98F /* SmartFormTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SmartFormTests.xctest;
+			remoteRef = 2EBE893C1E07BEFC00B5E98F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EBE88DE1E07BEA600B5E98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBE88EE1E07BEA600B5E98F /* LaunchScreen.storyboard in Resources */,
+				2EBE88EB1E07BEA600B5E98F /* Assets.xcassets in Resources */,
+				2EBE88E91E07BEA600B5E98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88F21E07BEA700B5E98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88FD1E07BEA700B5E98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EBE88DC1E07BEA600B5E98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBE88E61E07BEA600B5E98F /* ViewController.swift in Sources */,
+				2EBE88E41E07BEA600B5E98F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88F01E07BEA700B5E98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBE88F91E07BEA700B5E98F /* SmartFormTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBE88FB1E07BEA700B5E98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBE89041E07BEA700B5E98F /* SmartFormTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EBE88F61E07BEA700B5E98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EBE88DF1E07BEA600B5E98F /* SmartFormTestApp */;
+			targetProxy = 2EBE88F51E07BEA700B5E98F /* PBXContainerItemProxy */;
+		};
+		2EBE89011E07BEA700B5E98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EBE88DF1E07BEA600B5E98F /* SmartFormTestApp */;
+			targetProxy = 2EBE89001E07BEA700B5E98F /* PBXContainerItemProxy */;
+		};
+		2EBE893F1E07BF0F00B5E98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartForm;
+			targetProxy = 2EBE893E1E07BF0F00B5E98F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EBE88E71E07BEA600B5E98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBE88E81E07BEA600B5E98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EBE88EC1E07BEA600B5E98F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBE88ED1E07BEA600B5E98F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EBE89061E07BEA700B5E98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EBE89071E07BEA700B5E98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EBE89091E07BEA700B5E98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartFormTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EBE890A1E07BEA700B5E98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartFormTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2EBE890C1E07BEA700B5E98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartFormTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFormTestApp.app/SmartFormTestApp";
+			};
+			name = Debug;
+		};
+		2EBE890D1E07BEA700B5E98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartFormTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFormTestApp.app/SmartFormTestApp";
+			};
+			name = Release;
+		};
+		2EBE890F1E07BEA700B5E98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartFormTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartFormTestApp;
+			};
+			name = Debug;
+		};
+		2EBE89101E07BEA700B5E98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SmartFormTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartFormTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EBE88DB1E07BEA600B5E98F /* Build configuration list for PBXProject "SmartFormTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBE89061E07BEA700B5E98F /* Debug */,
+				2EBE89071E07BEA700B5E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBE89081E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBE89091E07BEA700B5E98F /* Debug */,
+				2EBE890A1E07BEA700B5E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EBE890B1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBE890C1E07BEA700B5E98F /* Debug */,
+				2EBE890D1E07BEA700B5E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EBE890E1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBE890F1E07BEA700B5E98F /* Debug */,
+				2EBE89101E07BEA700B5E98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EBE88D81E07BEA600B5E98F /* Project object */;
+}
