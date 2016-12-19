@@ -10,6 +10,7 @@
 		2EBE89251E07BECE00B5E98F /* SmartForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBE891B1E07BECD00B5E98F /* SmartForm.framework */; };
 		2EBE892A1E07BECE00B5E98F /* SmartFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE89291E07BECE00B5E98F /* SmartFormTests.swift */; };
 		2EBE892C1E07BECE00B5E98F /* SmartForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBE891E1E07BECD00B5E98F /* SmartForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EBE89451E07D37D00B5E98F /* SmartForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBE89441E07D37D00B5E98F /* SmartForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		2EBE89241E07BECE00B5E98F /* SmartFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBE89291E07BECE00B5E98F /* SmartFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFormTests.swift; sourceTree = "<group>"; };
 		2EBE892B1E07BECE00B5E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBE89411E07CEBF00B5E98F /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		2EBE89441E07D37D00B5E98F /* SmartForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,10 @@
 		2EBE891D1E07BECD00B5E98F /* SmartForm */ = {
 			isa = PBXGroup;
 			children = (
+				2EBE89431E07D28000B5E98F /* Sources */,
 				2EBE891E1E07BECD00B5E98F /* SmartForm.h */,
 				2EBE891F1E07BECD00B5E98F /* Info.plist */,
+				2EBE89411E07CEBF00B5E98F /* Package.swift */,
 			);
 			path = SmartForm;
 			sourceTree = "<group>";
@@ -84,6 +89,14 @@
 				2EBE892B1E07BECE00B5E98F /* Info.plist */,
 			);
 			path = SmartFormTests;
+			sourceTree = "<group>";
+		};
+		2EBE89431E07D28000B5E98F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE89441E07D37D00B5E98F /* SmartForm.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 				TargetAttributes = {
 					2EBE891A1E07BECD00B5E98F = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					2EBE89231E07BECE00B5E98F = {
@@ -196,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBE89451E07D37D00B5E98F /* SmartForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +335,7 @@
 		2EBE89301E07BECE00B5E98F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +355,7 @@
 		2EBE89311E07BECE00B5E98F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +374,7 @@
 		2EBE89331E07BECE00B5E98F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SmartFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTests;
@@ -367,6 +386,7 @@
 		2EBE89341E07BECE00B5E98F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SmartFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmitra.SmartFormTests;
@@ -394,6 +414,7 @@
 				2EBE89311E07BECE00B5E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EBE89321E07BECE00B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +423,7 @@
 				2EBE89341E07BECE00B5E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

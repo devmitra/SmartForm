@@ -568,6 +568,7 @@
 				2EBE890A1E07BEA700B5E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EBE890B1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +577,7 @@
 				2EBE890D1E07BEA700B5E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EBE890E1E07BEA700B5E98F /* Build configuration list for PBXNativeTarget "SmartFormTestAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +586,7 @@
 				2EBE89101E07BEA700B5E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
